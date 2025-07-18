@@ -55,7 +55,6 @@
   :root, :host {
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    --color-red-500: oklch(63.7% .237 25.331);
     --color-red-600: oklch(57.7% .245 27.325);
     --color-red-700: oklch(50.5% .213 27.518);
     --color-yellow-500: oklch(79.5% .184 86.047);
@@ -325,10 +324,6 @@
     margin-inline: auto;
   }
 
-  .mt-2 {
-    margin-top: calc(var(--spacing) * 2);
-  }
-
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
@@ -339,10 +334,6 @@
 
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
-  }
-
-  .ml-1 {
-    margin-left: calc(var(--spacing) * 1);
   }
 
   .ml-2 {
@@ -389,10 +380,6 @@
     height: calc(var(--spacing) * 16);
   }
 
-  .h-\[422px\] {
-    height: 422px;
-  }
-
   .h-full {
     height: 100%;
   }
@@ -419,14 +406,6 @@
 
   .w-16 {
     width: calc(var(--spacing) * 16);
-  }
-
-  .w-\[156px\] {
-    width: 156px;
-  }
-
-  .w-\[378\.56px\] {
-    width: 378.56px;
   }
 
   .w-auto {
@@ -476,10 +455,6 @@
 
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .flex-col {
@@ -797,14 +772,6 @@
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
 
-  .text-\[12\.95px\] {
-    font-size: 12.95px;
-  }
-
-  .text-\[14px\] {
-    font-size: 14px;
-  }
-
   .text-\[17px\] {
     font-size: 17px;
   }
@@ -845,14 +812,6 @@
     color: #616161;
   }
 
-  .text-\[\#787878\] {
-    color: #787878;
-  }
-
-  .text-\[\#929292\] {
-    color: #929292;
-  }
-
   .text-\[\#CACACA\] {
     color: #cacaca;
   }
@@ -875,10 +834,6 @@
 
   .text-gray-900 {
     color: var(--color-gray-900);
-  }
-
-  .text-red-500 {
-    color: var(--color-red-500);
   }
 
   .text-transparent {
@@ -1139,12 +1094,6 @@
   @media (width >= 64rem) {
     .lg\:text-\[94px\] {
       font-size: 94px;
-    }
-  }
-
-  @media (width >= 80rem) {
-    .xl\:grid-cols-4 {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
 }
