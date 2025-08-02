@@ -602,8 +602,34 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "3",
             occupants: "4-6"
         },
-        image: "https://example.com/image1.jpg",
-        discount: ""
+        image: [
+            "/assets/images/image 2.png",
+            "/assets/images/image 6.png",
+            "/assets/images/image 7.png",
+            "/assets/images/image 12.png"
+        ],
+        discount: "",
+        description: "Experience luxury at Villa Ocean Breeze, a stunning beachfront property in Seminyak. Enjoy a private pool, spacious living areas, and breathtaking ocean views, perfect for a relaxing tropical getaway.",
+        reviews: [
+            {
+                name: "Alice Johnson",
+                avatar: "/assets/avatars/alice.jpg",
+                rating: 5,
+                comment: "An incredible stay! The villa is beautiful, and the staff were so attentive."
+            },
+            {
+                name: "Mark Lee",
+                avatar: "/assets/avatars/mark.jpg",
+                rating: 4.8,
+                comment: "Loved the pool and location. Highly recommend for a luxurious escape."
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Mountain Escape Chalet",
@@ -624,8 +650,34 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "2",
             occupants: "5-7"
         },
-        image: "https://example.com/image2.jpg",
-        discount: "30"
+        image: [
+            "/assets/images/image 3.png",
+            "/assets/images/image 8.png",
+            "/assets/images/image 11.png",
+            "/assets/images/image 17.png"
+        ],
+        discount: "30",
+        description: "Nestled in the heart of Aspen, this cozy chalet offers stunning mountain views and a warm fireplace, ideal for a winter retreat or summer adventure.",
+        reviews: [
+            {
+                name: "Sarah Brown",
+                avatar: "/assets/avatars/sarah.jpg",
+                rating: 4.5,
+                comment: "The chalet was cozy and perfect for our family ski trip."
+            },
+            {
+                name: "David Kim",
+                avatar: "/assets/avatars/david.jpg",
+                rating: 4.9,
+                comment: "Great location and amenities. The fireplace was a highlight!"
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Cozy Desert Retreat",
@@ -646,8 +698,33 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "1",
             occupants: "2-3"
         },
-        image: "https://example.com/image3.jpg",
-        discount: ""
+        image: [
+            "/assets/images/image 4.png",
+            "/assets/images/image 9.png",
+            "/assets/images/image 15.png"
+        ],
+        discount: "",
+        description: "A charming retreat in Palm Springs, surrounded by desert landscapes. Perfect for couples or small families, with pet-friendly accommodations and modern amenities.",
+        reviews: [
+            {
+                name: "Emma Davis",
+                avatar: "/assets/avatars/emma.jpg",
+                rating: 5,
+                comment: "Loved the desert vibes and pet-friendly policy!"
+            },
+            {
+                name: "Liam Wilson",
+                avatar: "/assets/avatars/liam.jpg",
+                rating: 4.8,
+                comment: "Very clean and comfortable. Great for a weekend getaway."
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "City Lights Penthouse",
@@ -668,8 +745,34 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "2",
             occupants: "2-4"
         },
-        image: "https://example.com/image4.jpg",
-        discount: "15"
+        image: [
+            "/assets/images/image 5.png",
+            "/assets/images/image 10.png",
+            "/assets/images/image 15.png",
+            "/assets/images/image 18.png"
+        ],
+        discount: "15",
+        description: "Live the high life in this luxurious penthouse in the heart of NYC, offering panoramic city views and modern amenities for an unforgettable urban experience.",
+        reviews: [
+            {
+                name: "Olivia Martinez",
+                avatar: "/assets/avatars/olivia.jpg",
+                rating: 4.9,
+                comment: "The view was spectacular! Perfect for a city getaway."
+            },
+            {
+                name: "James Taylor",
+                avatar: "/assets/avatars/james.jpg",
+                rating: 4.7,
+                comment: "Very stylish and convenient location. Loved it!"
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Riverside Cabin",
@@ -690,8 +793,33 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "2",
             occupants: "4-6"
         },
-        image: "https://example.com/image5.jpg",
-        discount: "20"
+        image: [
+            "/assets/images/image 6.png",
+            "/assets/images/image 2.png",
+            "/assets/images/image 12.png"
+        ],
+        discount: "20",
+        description: "A serene riverside cabin in Queenstown, offering a private dock and free kayaks for exploring the stunning waterways of Otago.",
+        reviews: [
+            {
+                name: "Sophie Clark",
+                avatar: "/assets/avatars/sophie.jpg",
+                rating: 4.8,
+                comment: "Kayaking was amazing! The cabin is cozy and peaceful."
+            },
+            {
+                name: "Ethan Walker",
+                avatar: "/assets/avatars/ethan.jpg",
+                rating: 4.7,
+                comment: "Perfect for nature lovers. Highly recommend!"
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Modern Beachfront Villa",
@@ -712,8 +840,34 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "4",
             occupants: "8-10"
         },
-        image: "https://example.com/image6.jpg",
-        discount: ""
+        image: [
+            "/assets/images/image 7.png",
+            "/assets/images/image 2.png",
+            "/assets/images/image 13.png",
+            "/assets/images/image 6.png"
+        ],
+        discount: "",
+        description: "Indulge in luxury at this modern beachfront villa in Sidemen, complete with a private pool and optional chef service for an exquisite dining experience.",
+        reviews: [
+            {
+                name: "Isabella Nguyen",
+                avatar: "/assets/avatars/isabella.jpg",
+                rating: 5,
+                comment: "The chef service was a game-changer! Stunning villa."
+            },
+            {
+                name: "Lucas Brown",
+                avatar: "/assets/avatars/lucas.jpg",
+                rating: 4.9,
+                comment: "Perfect for a large group. The beach access was fantastic."
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Lakeside Chalet",
@@ -734,8 +888,34 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "3",
             occupants: "4-5"
         },
-        image: "https://example.com/image7.jpg",
-        discount: "10"
+        image: [
+            "/assets/images/image 8.png",
+            "/assets/images/image 3.png",
+            "/assets/images/image 11.png",
+            "/assets/images/image 17.png"
+        ],
+        discount: "10",
+        description: "A cozy lakeside chalet in Banff, surrounded by mountains and hiking trails, perfect for outdoor enthusiasts seeking a tranquil retreat.",
+        reviews: [
+            {
+                name: "Mia Thompson",
+                avatar: "/assets/avatars/mia.jpg",
+                rating: 4.6,
+                comment: "The lake views were breathtaking. Great hiking nearby."
+            },
+            {
+                name: "Noah Lee",
+                avatar: "/assets/avatars/noah.jpg",
+                rating: 4.7,
+                comment: "Very comfortable and great location for exploring Banff."
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Tropical Garden Villa",
@@ -756,8 +936,33 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "3",
             occupants: "5-6"
         },
-        image: "https://example.com/image8.jpg",
-        discount: "25"
+        image: [
+            "/assets/images/image 9.png",
+            "/assets/images/image 4.png",
+            "/assets/images/image 13.png"
+        ],
+        discount: "25",
+        description: "Relax in this tropical garden villa in Koh Samui, featuring lush surroundings, free parking, and easy self-check-in for a hassle-free stay.",
+        reviews: [
+            {
+                name: "Ava Garcia",
+                avatar: "/assets/avatars/ava.jpg",
+                rating: 4.9,
+                comment: "The garden was beautiful, and the villa was very spacious."
+            },
+            {
+                name: "William Chen",
+                avatar: "/assets/avatars/william.jpg",
+                rating: 4.7,
+                comment: "Loved the tropical vibe and easy check-in process."
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Urban Loft",
@@ -778,8 +983,34 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "1",
             occupants: "2-3"
         },
-        image: "https://example.com/image9.jpg",
-        discount: ""
+        image: [
+            "/assets/images/image 10.png",
+            "/assets/images/image 5.png",
+            "/assets/images/image 15.png",
+            "/assets/images/image 18.png"
+        ],
+        discount: "",
+        description: "A stylish urban loft in the heart of Berlin, offering free WiFi and 24-hour check-in, perfect for city explorers.",
+        reviews: [
+            {
+                name: "Charlotte Kim",
+                avatar: "/assets/avatars/charlotte.jpg",
+                rating: 4.5,
+                comment: "Great location and modern design. Perfect for a city trip."
+            },
+            {
+                name: "Henry Patel",
+                avatar: "/assets/avatars/henry.jpg",
+                rating: 4.7,
+                comment: "Very convenient and stylish. Loved the WiFi speed!"
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Secluded Forest Cabin",
@@ -800,8 +1031,34 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "2",
             occupants: "5-7"
         },
-        image: "https://example.com/image10.jpg",
-        discount: "40"
+        image: [
+            "/assets/images/image 11.png",
+            "/assets/images/image 3.png",
+            "/assets/images/image 8.png",
+            "/assets/images/image 17.png"
+        ],
+        discount: "40",
+        description: "Escape to this secluded forest cabin in Whistler, complete with a hot tub and self-check-in for a peaceful retreat in nature.",
+        reviews: [
+            {
+                name: "Amelia Wright",
+                avatar: "/assets/avatars/amelia.jpg",
+                rating: 4.8,
+                comment: "The hot tub was amazing! Perfect for a quiet getaway."
+            },
+            {
+                name: "Jack Liu",
+                avatar: "/assets/avatars/jack.jpg",
+                rating: 4.6,
+                comment: "Very secluded and relaxing. Great for families."
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Cliffside Villa",
@@ -822,8 +1079,34 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "4",
             occupants: "6-8"
         },
-        image: "https://example.com/image11.jpg",
-        discount: "50"
+        image: [
+            "/assets/images/image 12.png",
+            "/assets/images/image 2.png",
+            "/assets/images/image 6.png",
+            "/assets/images/image 7.png"
+        ],
+        discount: "50",
+        description: "Perched on the cliffs of Amalfi, this villa offers an infinity pool and stunning sea views, ideal for a luxurious Italian escape.",
+        reviews: [
+            {
+                name: "Sophia Rossi",
+                avatar: "/assets/avatars/sophia.jpg",
+                rating: 5,
+                comment: "The infinity pool and views were unforgettable!"
+            },
+            {
+                name: "Mateo Gonzalez",
+                avatar: "/assets/avatars/mateo.jpg",
+                rating: 4.9,
+                comment: "Luxury at its finest. Highly recommend this villa."
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Coastal Escape Villa",
@@ -844,30 +1127,34 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "3",
             occupants: "4-6"
         },
-        image: "https://example.com/image12.jpg",
-        discount: ""
-    },
-    {
-        name: "Historical Villa",
-        address: {
-            state: "Florence",
-            city: "Tuscany",
-            country: "Italy"
-        },
-        rating: 4.67,
-        category: [
-            "Historical",
-            "Free Breakfast",
-            "Self Checkin"
+        image: [
+            "/assets/images/image 13.png",
+            "/assets/images/image 7.png",
+            "/assets/images/image 9.png",
+            "/assets/images/image 4.png"
         ],
-        price: 2700,
-        offers: {
-            bed: "2",
-            shower: "2",
-            occupants: "2-4"
-        },
-        image: "https://example.com/image13.jpg",
-        discount: "35"
+        discount: "",
+        description: "A pet-friendly beachfront villa in Noosa, offering direct access to the coast and ample parking for a perfect Australian holiday.",
+        reviews: [
+            {
+                name: "Ella Harris",
+                avatar: "/assets/avatars/ella.jpg",
+                rating: 4.8,
+                comment: "Great for our dog and family. Beach access was perfect."
+            },
+            {
+                name: "Oliver King",
+                avatar: "/assets/avatars/oliver.jpg",
+                rating: 4.9,
+                comment: "Spacious and clean. Loved the coastal location."
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Downtown Apartment",
@@ -888,8 +1175,34 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "1",
             occupants: "2"
         },
-        image: "https://example.com/image14.jpg",
-        discount: ""
+        image: [
+            "/assets/images/image 15.png",
+            "/assets/images/image 5.png",
+            "/assets/images/image 10.png",
+            "/assets/images/image 18.png"
+        ],
+        discount: "",
+        description: "A modern downtown apartment in Tokyo, steps away from public transport and offering fast WiFi for city adventurers.",
+        reviews: [
+            {
+                name: "Hana Sato",
+                avatar: "/assets/avatars/hana.jpg",
+                rating: 4.8,
+                comment: "Perfect location for exploring Tokyo. Very clean."
+            },
+            {
+                name: "Ryan Tanaka",
+                avatar: "/assets/avatars/ryan.jpg",
+                rating: 4.7,
+                comment: "Compact but stylish. Great for a short city stay."
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Luxury Safari Lodge",
@@ -910,8 +1223,33 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "4",
             occupants: "6-8"
         },
-        image: "https://example.com/image15.jpg",
-        discount: "20"
+        image: [
+            "/assets/images/image 16.png",
+            "/assets/images/image 4.png",
+            "/assets/images/image 9.png"
+        ],
+        discount: "20",
+        description: "Immerse yourself in the Serengeti with this luxury safari lodge, offering guided tours and complimentary breakfast for an unforgettable adventure.",
+        reviews: [
+            {
+                name: "Zoe Mweupe",
+                avatar: "/assets/avatars/zoe.jpg",
+                rating: 5,
+                comment: "The safari tours were incredible! Amazing lodge."
+            },
+            {
+                name: "Ahmed Khan",
+                avatar: "/assets/avatars/ahmed.jpg",
+                rating: 4.9,
+                comment: "Luxurious and great staff. Breakfast was top-notch."
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Countryside Cottage",
@@ -932,8 +1270,34 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "1",
             occupants: "2-4"
         },
-        image: "https://example.com/image16.jpg",
-        discount: "25"
+        image: [
+            "/assets/images/image 17.png",
+            "/assets/images/image 3.png",
+            "/assets/images/image 8.png",
+            "/assets/images/image 11.png"
+        ],
+        discount: "25",
+        description: "A quaint countryside cottage in the Cotswolds, featuring a cozy fireplace and self-check-in for a charming rural escape.",
+        reviews: [
+            {
+                name: "Lily Evans",
+                avatar: "/assets/avatars/lily.jpg",
+                rating: 4.6,
+                comment: "So charming and peaceful. Loved the fireplace."
+            },
+            {
+                name: "George Baker",
+                avatar: "/assets/avatars/george.jpg",
+                rating: 4.5,
+                comment: "Perfect for a quiet weekend in the countryside."
+            }
+        ],
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     },
     {
         name: "Riverfront Mansion",
@@ -954,74 +1318,34 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "3",
             occupants: "6-8"
         },
-        image: "https://example.com/image17.jpg",
-        discount: "30"
-    },
-    {
-        name: "Ski Chalet",
-        address: {
-            state: "Zermatt",
-            city: "Valais",
-            country: "Switzerland"
-        },
-        rating: 4.75,
-        category: [
-            "Mountain View",
-            "Ski Access",
-            "Fireplace"
+        image: [
+            "/assets/images/image 18.png",
+            "/assets/images/image 5.png",
+            "/assets/images/image 10.png",
+            "/assets/images/image 15.png"
         ],
-        price: 3900,
-        offers: {
-            bed: "3",
-            shower: "3",
-            occupants: "4-5"
-        },
-        image: "https://example.com/image18.jpg",
-        discount: ""
-    },
-    {
-        name: "Island Paradise Villa",
-        address: {
-            state: "Mahe",
-            city: "Victoria",
-            country: "Seychelles"
-        },
-        rating: 4.98,
-        category: [
-            "Beachfront",
-            "Private Pool",
-            "Chef Service"
+        discount: "30",
+        description: "A grand riverfront mansion in Paris, featuring a private garden and easy self-check-in, perfect for a luxurious French getaway.",
+        reviews: [
+            {
+                name: "Claire Dubois",
+                avatar: "/assets/avatars/claire.jpg",
+                rating: 4.9,
+                comment: "Stunning mansion with a beautiful garden. Loved it!"
+            },
+            {
+                name: "Pierre Martin",
+                avatar: "/assets/avatars/pierre.jpg",
+                rating: 4.8,
+                comment: "Very spacious and elegant. Perfect for our group."
+            }
         ],
-        price: 6500,
-        offers: {
-            bed: "5",
-            shower: "5",
-            occupants: "8-10"
-        },
-        image: "https://example.com/image19.jpg",
-        discount: "60"
-    },
-    {
-        name: "Clifftop Retreat",
-        address: {
-            state: "Cape Town",
-            city: "Western Cape",
-            country: "South Africa"
-        },
-        rating: 4.78,
-        category: [
-            "Ocean View",
-            "Private Pool",
-            "Self Checkin"
-        ],
-        price: 4100,
-        offers: {
-            bed: "3",
-            shower: "3",
-            occupants: "4-5"
-        },
-        image: "https://example.com/image20.jpg",
-        discount: ""
+        host: {
+            name: "Putu Widya",
+            avatar: "/assets/avatars/putu.jpg",
+            bio: "Putu is a Superhost with 10 years of experience in hospitality, passionate about sharing Bali’s beauty with guests.",
+            joined: "March 2015"
+        }
     }
 ];
 const CATEGORIES = [
@@ -1103,113 +1427,261 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
-/* eslint-disable @next/next/no-img-element */ __turbopack_context__.s({
+__turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bath$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Bath$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/bath.js [client] (ecmascript) <export default as Bath>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bed$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Bed$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/bed.js [client] (ecmascript) <export default as Bed>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/dollar-sign.js [client] (ecmascript) <export default as DollarSign>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$squares$2d$subtract$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__SquaresSubtract$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/squares-subtract.js [client] (ecmascript) <export default as SquaresSubtract>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/star.js [client] (ecmascript) <export default as Star>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$constants$2f$index$2e$ts__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/constants/index.ts [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/users.js [client] (ecmascript) <export default as Users>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [client] (ecmascript)");
+;
 ;
 ;
 ;
 const Card = ({ property })=>{
+    console.log(property);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "w-full h-full cursor-pointer hover:shadow-md hover:rounded-lg",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$constants$2f$index$2e$ts__$5b$client$5d$__$28$ecmascript$29$__["HOUSE"],
-                alt: "house image",
-                className: "rounded-lg"
-            }, void 0, false, {
-                fileName: "[project]/components/common/Card.tsx",
-                lineNumber: 10,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col justify-between gap-4items-center",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                            className: "font-semibold text-[22px]",
-                            children: property.name
+        className: "relative w-full h-full cursor-pointer hover:shadow-md hover:rounded-lg",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+            href: `/property/${property.name}`,
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: property.image[0] || "/images/fallback.jpg",
+                    alt: property.name || "house image",
+                    width: 400,
+                    height: 300,
+                    className: "rounded-t-lg",
+                    onError: (e)=>{
+                        e.currentTarget.src = "/images/fallback.jpg";
+                    }
+                }, void 0, false, {
+                    fileName: "[project]/components/common/Card.tsx",
+                    lineNumber: 19,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex flex-col justify-between p-4",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex flex-wrap justify-start gap-4 mb-4",
+                            children: property.category.map((cat)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "px-2 py-1 text-sm text-gray-700 bg-gray-100 rounded",
+                                    children: cat
+                                }, cat, false, {
+                                    fileName: "[project]/components/common/Card.tsx",
+                                    lineNumber: 32,
+                                    columnNumber: 13
+                                }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/common/Card.tsx",
-                            lineNumber: 13,
-                            columnNumber: 11
+                            lineNumber: 30,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "w-full",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center justify-between w-full gap-4",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "font-semibold text-[22px]",
+                                            children: property.name
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/common/Card.tsx",
+                                            lineNumber: 42,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex items-center",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
+                                                    className: "w-4 h-4 text-[#FAC02B]"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/common/Card.tsx",
+                                                    lineNumber: 44,
+                                                    columnNumber: 15
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "font-medium text-[17px] ml-2",
+                                                    children: property.rating
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/common/Card.tsx",
+                                                    lineNumber: 45,
+                                                    columnNumber: 15
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/common/Card.tsx",
+                                            lineNumber: 43,
+                                            columnNumber: 13
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/common/Card.tsx",
+                                    lineNumber: 41,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-600 text-[16px]",
+                                    children: [
+                                        property.address.city,
+                                        ", ",
+                                        property.address.country
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/common/Card.tsx",
+                                    lineNumber: 48,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/common/Card.tsx",
+                            lineNumber: 40,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center justify-between gap-2 pt-4",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex justify-between gap-1 px-2 bg-gray-200 rounded-lg",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "flex items-center gap-1",
+                                            children: [
+                                                property.offers.bed,
+                                                " ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bed$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Bed$3e$__["Bed"], {
+                                                    className: "w-4 h-auto"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/common/Card.tsx",
+                                                    lineNumber: 56,
+                                                    columnNumber: 37
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/common/Card.tsx",
+                                            lineNumber: 55,
+                                            columnNumber: 13
+                                        }, this),
+                                        " ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "flex items-center gap-1",
+                                            children: [
+                                                property.offers.shower,
+                                                " ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bath$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Bath$3e$__["Bath"], {
+                                                    className: "w-4 h-auto"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/common/Card.tsx",
+                                                    lineNumber: 59,
+                                                    columnNumber: 40
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/common/Card.tsx",
+                                            lineNumber: 58,
+                                            columnNumber: 13
+                                        }, this),
+                                        " ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "flex items-center gap-1",
+                                            children: [
+                                                property.offers.occupants,
+                                                " ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+                                                    className: "w-4 h-auto"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/common/Card.tsx",
+                                                    lineNumber: 62,
+                                                    columnNumber: 43
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/common/Card.tsx",
+                                            lineNumber: 61,
+                                            columnNumber: 13
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/common/Card.tsx",
+                                    lineNumber: 54,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__["DollarSign"], {
+                                            className: "w-4 h-4 text-[#FAC02B]"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/common/Card.tsx",
+                                            lineNumber: 66,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "font-medium text-[17px] ml-2",
+                                            children: property.price
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/common/Card.tsx",
+                                            lineNumber: 67,
+                                            columnNumber: 13
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/common/Card.tsx",
+                                    lineNumber: 65,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/common/Card.tsx",
+                            lineNumber: 53,
+                            columnNumber: 9
                         }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/common/Card.tsx",
-                        lineNumber: 12,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center justify-between gap-4",
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/common/Card.tsx",
+                    lineNumber: 29,
+                    columnNumber: 7
+                }, this),
+                property.discount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "absolute z-10 flex items-center justify-between gap-4 bg-green-500 rounded-t-lg rounded-br-lg left-1 top-1 w-fit",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "flex items-center text-sm font-medium text-white",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__["DollarSign"], {
-                                        className: "w-4 h-4 text-[#FAC02B]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/common/Card.tsx",
-                                        lineNumber: 17,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "font-medium text-[17px] ml-2",
-                                        children: property.price
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/common/Card.tsx",
-                                        lineNumber: 18,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$squares$2d$subtract$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__SquaresSubtract$3e$__["SquaresSubtract"], {
+                                className: "w-3 h-auto"
+                            }, void 0, false, {
                                 fileName: "[project]/components/common/Card.tsx",
-                                lineNumber: 16,
-                                columnNumber: 11
+                                lineNumber: 74,
+                                columnNumber: 13
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
-                                        className: "w-4 h-4 text-[#FAC02B]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/common/Card.tsx",
-                                        lineNumber: 21,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "font-medium text-[17px] ml-2",
-                                        children: property.rating
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/common/Card.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/common/Card.tsx",
-                                lineNumber: 20,
-                                columnNumber: 11
-                            }, this)
+                            property.discount,
+                            "% Off"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/common/Card.tsx",
-                        lineNumber: 15,
-                        columnNumber: 9
+                        lineNumber: 73,
+                        columnNumber: 11
                     }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/common/Card.tsx",
-                lineNumber: 11,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
+                }, void 0, false, {
+                    fileName: "[project]/components/common/Card.tsx",
+                    lineNumber: 72,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/common/Card.tsx",
+            lineNumber: 18,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/components/common/Card.tsx",
-        lineNumber: 9,
+        lineNumber: 17,
         columnNumber: 5
     }, this);
 };

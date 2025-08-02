@@ -33,15 +33,32 @@ export interface Offers {
   occupants: string;
 }
 
+export interface Host {
+    name: string;
+    avatar: string;
+    bio: string;
+    joined: string;
+  };
+
+  export interface Reviews {
+    name: string;
+    avatar: string;
+    rating: number;
+    comment: string;
+  }
+
 export interface PropertyProps {
   name: string;
   address: Address;
+  description: string;
   rating: number;
   category: string[];
   price: number;
   offers: Offers;
-  image: string;
+  reviews: Reviews[]
+  image: string[];
   discount: string;
+  host: Host;
 }
 
 export interface InputProps {
@@ -78,6 +95,7 @@ export interface CategoryProps {
   onClick?: () => void;
 }
 
+// interfaces/index.ts
 export interface PropertyProps {
   name: string;
   address: {
@@ -93,8 +111,15 @@ export interface PropertyProps {
     shower: string;
     occupants: string;
   };
-  image: string;
+  image: string[];
   discount: string;
+  description: string;
+  reviews: {
+    name: string;
+    avatar: string;
+    rating: number;
+    comment: string;
+  }[];
 }
 
 export interface CardProps {

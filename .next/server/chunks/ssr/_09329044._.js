@@ -94,6 +94,7 @@ __turbopack_context__.s({
     "CATEGORIES": (()=>CATEGORIES),
     "DEFAULT_CURRENCY": (()=>DEFAULT_CURRENCY),
     "HEROSECTION_BG_IMAGE": (()=>HEROSECTION_BG_IMAGE),
+    "HOUSE": (()=>HOUSE),
     "PROPERTYLISTINGSAMPLE": (()=>PROPERTYLISTINGSAMPLE),
     "UI_TEXT": (()=>UI_TEXT)
 });
@@ -106,6 +107,7 @@ const UI_TEXT = {
     LOADING: 'Loading...'
 };
 const HEROSECTION_BG_IMAGE = '/assets/images/homepage_background1.png';
+const HOUSE = '/assets/images/house.png';
 const PROPERTYLISTINGSAMPLE = [
     {
         name: "Villa Ocean Breeze",
@@ -126,8 +128,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "3",
             occupants: "4-6"
         },
-        image: "https://example.com/image1.jpg",
-        discount: ""
+        image: "/assets/images/image 2.png",
+        discount: "",
+        description: ""
     },
     {
         name: "Mountain Escape Chalet",
@@ -148,8 +151,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "2",
             occupants: "5-7"
         },
-        image: "https://example.com/image2.jpg",
-        discount: "30"
+        image: "/assets/images/image 3.png",
+        discount: "30",
+        description: ""
     },
     {
         name: "Cozy Desert Retreat",
@@ -170,8 +174,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "1",
             occupants: "2-3"
         },
-        image: "https://example.com/image3.jpg",
-        discount: ""
+        image: "/assets/images/image 4.png",
+        discount: "",
+        description: ""
     },
     {
         name: "City Lights Penthouse",
@@ -192,8 +197,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "2",
             occupants: "2-4"
         },
-        image: "https://example.com/image4.jpg",
-        discount: "15"
+        image: "/assets/images/image 5.png",
+        discount: "15",
+        description: ""
     },
     {
         name: "Riverside Cabin",
@@ -214,8 +220,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "2",
             occupants: "4-6"
         },
-        image: "https://example.com/image5.jpg",
-        discount: "20"
+        image: "/assets/images/image 6.png",
+        discount: "20",
+        description: ""
     },
     {
         name: "Modern Beachfront Villa",
@@ -236,8 +243,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "4",
             occupants: "8-10"
         },
-        image: "https://example.com/image6.jpg",
-        discount: ""
+        image: "/assets/images/image 7.png",
+        discount: "",
+        description: ""
     },
     {
         name: "Lakeside Chalet",
@@ -258,8 +266,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "3",
             occupants: "4-5"
         },
-        image: "https://example.com/image7.jpg",
-        discount: "10"
+        image: "/assets/images/image 8.png",
+        discount: "10",
+        description: ""
     },
     {
         name: "Tropical Garden Villa",
@@ -280,8 +289,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "3",
             occupants: "5-6"
         },
-        image: "https://example.com/image8.jpg",
-        discount: "25"
+        image: "/assets/images/image 9.png",
+        discount: "25",
+        description: ""
     },
     {
         name: "Urban Loft",
@@ -302,8 +312,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "1",
             occupants: "2-3"
         },
-        image: "https://example.com/image9.jpg",
-        discount: ""
+        image: "/assets/images/image 10.png",
+        discount: "",
+        description: ""
     },
     {
         name: "Secluded Forest Cabin",
@@ -324,8 +335,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "2",
             occupants: "5-7"
         },
-        image: "https://example.com/image10.jpg",
-        discount: "40"
+        image: "/assets/images/image 11.png",
+        discount: "40",
+        description: ""
     },
     {
         name: "Cliffside Villa",
@@ -346,8 +358,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "4",
             occupants: "6-8"
         },
-        image: "https://example.com/image11.jpg",
-        discount: "50"
+        image: "/assets/images/image 12.png",
+        discount: "50",
+        description: ""
     },
     {
         name: "Coastal Escape Villa",
@@ -368,30 +381,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "3",
             occupants: "4-6"
         },
-        image: "https://example.com/image12.jpg",
-        discount: ""
-    },
-    {
-        name: "Historical Villa",
-        address: {
-            state: "Florence",
-            city: "Tuscany",
-            country: "Italy"
-        },
-        rating: 4.67,
-        category: [
-            "Historical",
-            "Free Breakfast",
-            "Self Checkin"
-        ],
-        price: 2700,
-        offers: {
-            bed: "2",
-            shower: "2",
-            occupants: "2-4"
-        },
-        image: "https://example.com/image13.jpg",
-        discount: "35"
+        image: "/assets/images/image 13.png",
+        discount: "",
+        description: ""
     },
     {
         name: "Downtown Apartment",
@@ -412,8 +404,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "1",
             occupants: "2"
         },
-        image: "https://example.com/image14.jpg",
-        discount: ""
+        image: "/assets/images/image 15.png",
+        discount: "",
+        description: ""
     },
     {
         name: "Luxury Safari Lodge",
@@ -434,8 +427,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "4",
             occupants: "6-8"
         },
-        image: "https://example.com/image15.jpg",
-        discount: "20"
+        image: "/assets/images/image 16.png",
+        discount: "20",
+        description: ""
     },
     {
         name: "Countryside Cottage",
@@ -456,8 +450,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "1",
             occupants: "2-4"
         },
-        image: "https://example.com/image16.jpg",
-        discount: "25"
+        image: "/assets/images/image 17.png",
+        discount: "25",
+        description: ""
     },
     {
         name: "Riverfront Mansion",
@@ -478,74 +473,9 @@ const PROPERTYLISTINGSAMPLE = [
             shower: "3",
             occupants: "6-8"
         },
-        image: "https://example.com/image17.jpg",
-        discount: "30"
-    },
-    {
-        name: "Ski Chalet",
-        address: {
-            state: "Zermatt",
-            city: "Valais",
-            country: "Switzerland"
-        },
-        rating: 4.75,
-        category: [
-            "Mountain View",
-            "Ski Access",
-            "Fireplace"
-        ],
-        price: 3900,
-        offers: {
-            bed: "3",
-            shower: "3",
-            occupants: "4-5"
-        },
-        image: "https://example.com/image18.jpg",
-        discount: ""
-    },
-    {
-        name: "Island Paradise Villa",
-        address: {
-            state: "Mahe",
-            city: "Victoria",
-            country: "Seychelles"
-        },
-        rating: 4.98,
-        category: [
-            "Beachfront",
-            "Private Pool",
-            "Chef Service"
-        ],
-        price: 6500,
-        offers: {
-            bed: "5",
-            shower: "5",
-            occupants: "8-10"
-        },
-        image: "https://example.com/image19.jpg",
-        discount: "60"
-    },
-    {
-        name: "Clifftop Retreat",
-        address: {
-            state: "Cape Town",
-            city: "Western Cape",
-            country: "South Africa"
-        },
-        rating: 4.78,
-        category: [
-            "Ocean View",
-            "Private Pool",
-            "Self Checkin"
-        ],
-        price: 4100,
-        offers: {
-            bed: "3",
-            shower: "3",
-            occupants: "4-5"
-        },
-        image: "https://example.com/image20.jpg",
-        discount: ""
+        image: "/assets/images/image 18.png",
+        discount: "30",
+        description: ""
     }
 ];
 const CATEGORIES = [
@@ -619,340 +549,15 @@ const CATEGORIES = [
     }
 ];
 }}),
-"[project]/components/common/Card.tsx [ssr] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
+"[project]/components/common/Card.tsx [ssr] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname } = __turbopack_context__;
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 {
-__turbopack_context__.s({
-    "default": (()=>__TURBOPACK__default__export__)
-});
-var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [ssr] (ecmascript)");
-(()=>{
-    const e = new Error("Cannot find module '@/public/assets/star.png'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$common$2f$Pill$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/common/Pill.tsx [ssr] (ecmascript)");
-;
-;
-;
-;
-const Card = ({ property, activeFilter, setActiveFilter })=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-        className: "h-[422px] w-[378.56px] cursor-pointer hover:shadow-md hover:rounded-lg",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                className: "rounded-lg",
-                src: property.image,
-                width: 378.56,
-                height: 299.37,
-                alt: "house image"
-            }, void 0, false, {
-                fileName: "[project]/components/common/Card.tsx",
-                lineNumber: 11,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "flex gap-2 p-2 mt-2",
-                children: property.category.map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$common$2f$Pill$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        label: category,
-                        active: activeFilter === category,
-                        onClick: ()=>setActiveFilter && setActiveFilter(category)
-                    }, category, false, {
-                        fileName: "[project]/components/common/Card.tsx",
-                        lineNumber: 20,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
-                fileName: "[project]/components/common/Card.tsx",
-                lineNumber: 18,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "flex items-center justify-between",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                className: "font-semibold text-[22px]",
-                                children: property.name
-                            }, void 0, false, {
-                                fileName: "[project]/components/common/Card.tsx",
-                                lineNumber: 30,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                className: "font-medium text-[17px] text-[#929292]",
-                                children: [
-                                    property.address.city,
-                                    ", ",
-                                    property.address.state,
-                                    ", ",
-                                    property.address.country
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/common/Card.tsx",
-                                lineNumber: 31,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/common/Card.tsx",
-                        lineNumber: 29,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "flex items-center",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                src: STAR_IMAGE,
-                                alt: "star",
-                                width: 18,
-                                height: 18
-                            }, void 0, false, {
-                                fileName: "[project]/components/common/Card.tsx",
-                                lineNumber: 36,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                className: "font-medium text-[17px] ml-2",
-                                children: property.rating
-                            }, void 0, false, {
-                                fileName: "[project]/components/common/Card.tsx",
-                                lineNumber: 37,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/common/Card.tsx",
-                        lineNumber: 35,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/common/Card.tsx",
-                lineNumber: 28,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "flex justify-between mt-4",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-3 border w-[156px] rounded-full px-2 py-1",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "flex items-center",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                        width: "21",
-                                        height: "21",
-                                        viewBox: "0 0 21 21",
-                                        fill: "none",
-                                        xmlns: "http://www.w3.org/2000/svg",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                d: "M17.2456 9.22324C16.8562 9.05231 16.4356 8.96423 16.0103 8.9646H4.89287C4.46767 8.96419 4.04702 9.05213 3.6576 9.22285C3.10721 9.46354 2.63886 9.85937 2.3098 10.3619C1.98073 10.8645 1.80521 11.4521 1.80469 12.0528V16.3762C1.80469 16.54 1.86976 16.6971 1.98559 16.813C2.10142 16.9288 2.25852 16.9939 2.42232 16.9939C2.58613 16.9939 2.74323 16.9288 2.85906 16.813C2.97489 16.6971 3.03996 16.54 3.03996 16.3762V16.0674C3.04096 15.9858 3.07382 15.9079 3.13152 15.8502C3.18922 15.7925 3.26719 15.7596 3.34878 15.7586H17.5544C17.636 15.7596 17.714 15.7925 17.7717 15.8502C17.8294 15.9079 17.8622 15.9858 17.8632 16.0674V16.3762C17.8632 16.54 17.9283 16.6971 18.0441 16.813C18.16 16.9288 18.3171 16.9939 18.4809 16.9939C18.6447 16.9939 18.8018 16.9288 18.9176 16.813C19.0334 16.6971 19.0985 16.54 19.0985 16.3762V12.0528C19.0979 11.4521 18.9224 10.8647 18.5933 10.3622C18.2642 9.85967 17.7959 9.4639 17.2456 9.22324Z",
-                                                fill: "#131212"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/common/Card.tsx",
-                                                lineNumber: 51,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                d: "M15.0837 3.40576H5.8192C5.24587 3.40576 4.69603 3.63351 4.29063 4.03892C3.88522 4.44432 3.65747 4.99416 3.65747 5.56749V8.34685C3.65749 8.37078 3.66307 8.39438 3.67376 8.41578C3.68446 8.43718 3.69999 8.45581 3.71912 8.47018C3.73825 8.48456 3.76045 8.49429 3.78399 8.49861C3.80752 8.50293 3.83174 8.50173 3.85473 8.49509C4.1919 8.39647 4.54144 8.34655 4.89274 8.34685H5.05603C5.09414 8.3471 5.131 8.33323 5.15951 8.30793C5.18801 8.28264 5.20615 8.24769 5.21044 8.20982C5.24413 7.90802 5.3878 7.62921 5.61403 7.42663C5.84025 7.22404 6.13316 7.11189 6.43684 7.11158H8.59856C8.90243 7.1116 9.19563 7.22363 9.4221 7.42624C9.64856 7.62885 9.79241 7.90782 9.82612 8.20982C9.8304 8.24769 9.84854 8.28264 9.87705 8.30793C9.90556 8.33323 9.94241 8.3471 9.98053 8.34685H10.9247C10.9629 8.3471 10.9997 8.33323 11.0282 8.30793C11.0567 8.28264 11.0749 8.24769 11.0791 8.20982C11.1128 7.90822 11.2563 7.62957 11.4823 7.42701C11.7083 7.22446 12.0009 7.11217 12.3044 7.11158H14.4661C14.77 7.1116 15.0632 7.22363 15.2896 7.42624C15.5161 7.62885 15.66 7.90782 15.6937 8.20982C15.6979 8.24769 15.7161 8.28264 15.7446 8.30793C15.7731 8.33323 15.81 8.3471 15.8481 8.34685H16.0102C16.3615 8.34669 16.7111 8.39673 17.0482 8.49547C17.0712 8.50212 17.0955 8.50332 17.1191 8.49898C17.1426 8.49464 17.1648 8.48487 17.184 8.47045C17.2031 8.45603 17.2186 8.43736 17.2293 8.41591C17.24 8.39446 17.2455 8.37081 17.2455 8.34685V5.56749C17.2455 4.99416 17.0177 4.44432 16.6123 4.03892C16.2069 3.63351 15.6571 3.40576 15.0837 3.40576Z",
-                                                fill: "#131212"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/common/Card.tsx",
-                                                lineNumber: 55,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/common/Card.tsx",
-                                        lineNumber: 44,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                        className: "ml-1 text-[12.95px] font-medium",
-                                        children: property.offers.bed
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/common/Card.tsx",
-                                        lineNumber: 60,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/common/Card.tsx",
-                                lineNumber: 43,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "flex items-center",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                        width: "18",
-                                        height: "18",
-                                        viewBox: "0 0 18 18",
-                                        fill: "none",
-                                        xmlns: "http://www.w3.org/2000/svg",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("g", {
-                                                clipPath: "url(#clip0_8_604)",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                        d: "M1.10254 12.1843V13.5573C1.10254 15.1441 2.26869 16.4635 3.78896 16.7037V17.7188H4.78733V16.7429H13.1234V17.7188H14.1218V16.7037C15.6421 16.4635 16.8082 15.1441 16.8082 13.5573V12.1843H1.10254Z",
-                                                        fill: "#131212"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/common/Card.tsx",
-                                                        lineNumber: 71,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                                        d: "M2.10119 9.18778V3.42795C2.10119 2.46359 2.88578 1.67903 3.85014 1.67903C4.74325 1.67903 5.48162 2.35204 5.58595 3.21747C4.54635 3.45161 3.76728 4.38176 3.76728 5.49104V6.15673H8.42924V5.49104C8.42924 4.37377 7.63896 3.43807 6.58821 3.21231C6.47769 1.79797 5.29234 0.680664 3.85014 0.680664C2.33527 0.680664 1.10282 1.91308 1.10282 3.42795V9.18778H0.436768V11.1861H17.4746V9.18778H2.10119Z",
-                                                        fill: "#131212"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/common/Card.tsx",
-                                                        lineNumber: 75,
-                                                        columnNumber: 17
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/common/Card.tsx",
-                                                lineNumber: 70,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("defs", {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("clipPath", {
-                                                    id: "clip0_8_604",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("rect", {
-                                                        width: "17.0382",
-                                                        height: "17.0382",
-                                                        fill: "white",
-                                                        transform: "translate(0.436279 0.680664)"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/common/Card.tsx",
-                                                        lineNumber: 82,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/common/Card.tsx",
-                                                    lineNumber: 81,
-                                                    columnNumber: 17
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/common/Card.tsx",
-                                                lineNumber: 80,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/common/Card.tsx",
-                                        lineNumber: 63,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                        className: "ml-1 text-[12.95px] font-medium",
-                                        children: property.offers.shower
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/common/Card.tsx",
-                                        lineNumber: 92,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/common/Card.tsx",
-                                lineNumber: 62,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "flex items-center",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
-                                        width: "18",
-                                        height: "18",
-                                        viewBox: "0 0 18 18",
-                                        fill: "none",
-                                        xmlns: "http://www.w3.org/2000/svg",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("path", {
-                                            d: "M16.9053 14.1692C16.9053 14.3575 16.8305 14.538 16.6973 14.6712C16.5642 14.8043 16.3836 14.8791 16.1953 14.8791H7.67621C7.48792 14.8791 7.30735 14.8043 7.17421 14.6712C7.04108 14.538 6.96628 14.3575 6.96628 14.1692C6.96628 13.0395 7.41506 11.956 8.21388 11.1572C9.0127 10.3584 10.0961 9.90961 11.2258 9.90961H12.6457C13.7754 9.90961 14.8588 10.3584 15.6577 11.1572C16.4565 11.956 16.9053 13.0395 16.9053 14.1692ZM11.9358 3.52026C11.3741 3.52026 10.8251 3.68681 10.3581 3.99884C9.89113 4.31087 9.52715 4.75437 9.31222 5.27326C9.09729 5.79215 9.04106 6.36312 9.15063 6.91397C9.2602 7.46482 9.53065 7.97081 9.92779 8.36795C10.3249 8.76509 10.8309 9.03555 11.3818 9.14512C11.9326 9.25469 12.5036 9.19845 13.0225 8.98352C13.5414 8.76859 13.9849 8.40462 14.2969 7.93763C14.6089 7.47064 14.7755 6.92161 14.7755 6.35997C14.7755 5.60683 14.4763 4.88454 13.9437 4.35199C13.4112 3.81945 12.6889 3.52026 11.9358 3.52026ZM5.54643 3.52026C4.98479 3.52026 4.43576 3.68681 3.96877 3.99884C3.50178 4.31087 3.13781 4.75437 3.50178 4.75437 3.13781 4.75437 2.92288 5.27326C2.70795 5.79215 2.65171 6.36312 2.76128 6.91397C2.87085 7.46482 3.14131 7.97081 3.53845 8.36795C3.93559 8.76509 4.44158 9.03555 4.99243 9.14512C5.54328 9.25469 6.11425 9.19845 6.63314 8.98352C7.15203 8.76859 7.59553 8.40462 7.90756 7.93763C8.21959 7.47064 8.38614 6.92161 8.38614 6.35997C8.38614 5.60683 8.08695 4.88454 7.5544 4.35199C7.02186 3.81945 6.29957 3.52026 5.54643 3.52026Z",
-                                            fill: "#131212"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/common/Card.tsx",
-                                            lineNumber: 102,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/common/Card.tsx",
-                                        lineNumber: 95,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                        className: "ml-1 text-[12.95px] font-medium",
-                                        children: property.offers.occupants
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/common/Card.tsx",
-                                        lineNumber: 108,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/common/Card.tsx",
-                                lineNumber: 94,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/common/Card.tsx",
-                        lineNumber: 42,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                        className: "text-[22px] font-semibold",
-                        children: [
-                            "$",
-                            property.price.toLocaleString(),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                className: "text-[14px] text-[#787878]",
-                                children: "/n"
-                            }, void 0, false, {
-                                fileName: "[project]/components/common/Card.tsx",
-                                lineNumber: 113,
-                                columnNumber: 11
-                            }, this),
-                            property.discount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                className: "ml-2 text-[14px] text-red-500",
-                                children: [
-                                    property.discount,
-                                    "% off"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/common/Card.tsx",
-                                lineNumber: 115,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/common/Card.tsx",
-                        lineNumber: 111,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/common/Card.tsx",
-                lineNumber: 41,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "[project]/components/common/Card.tsx",
-        lineNumber: 10,
-        columnNumber: 5
-    }, this);
-};
-const __TURBOPACK__default__export__ = Card;
-}}),
+const e = new Error(`Could not parse module '[project]/components/common/Card.tsx'
+
+Unexpected token `div`. Expected jsx identifier`);
+e.code = 'MODULE_UNPARSEABLE';
+throw e;}}),
 "[project]/pages/index.tsx [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -1112,11 +717,9 @@ function Home() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
-                className: "grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4",
+                className: "grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4",
                 children: filteredProperties.map((property)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$common$2f$Card$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                         property: property,
-                        activeFilter: activeFilter,
-                        setActiveFilter: setActiveFilter,
                         title: property.name
                     }, property.name, false, {
                         fileName: "[project]/pages/index.tsx",
